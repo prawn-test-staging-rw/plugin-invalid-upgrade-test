@@ -1,6 +1,6 @@
 version: 0.1
 lint:
-  defintions:
+  definitions:
     - name: test-linter
       files: [ALL]
       commands:
