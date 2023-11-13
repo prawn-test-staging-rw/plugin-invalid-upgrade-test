@@ -1,1 +1,10 @@
 version: 0.1
+lint:
+  defintions:
+    - name: test-linter
+      files: [ALL]
+      commands:
+        - name: alpha
+          run: "echo alpha"
+          output: pass_fail
+          success_codes: [0,1]
